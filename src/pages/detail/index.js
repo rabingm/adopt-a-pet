@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Redirect, useParams, redirect } from 'react-router-dom';
+import { Redirect, useParams } from 'react-router-dom';
 import { getPetDetails } from '../../api/petfinder';
 import Hero from '../../components/hero';
 
