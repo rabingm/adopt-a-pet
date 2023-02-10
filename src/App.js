@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navigation />
       <Switch>
-      <Route path="/pet-details-not-found">
+        <Route path="/pet-details-not-found">
           <PetDetailsNotFound />
         </Route>
         <Route path="/search">
@@ -23,7 +23,6 @@ function App() {
         <Route path="/:type?">
           <HomePage />
         </Route>
-        
       </Switch>
     </Router>
   );

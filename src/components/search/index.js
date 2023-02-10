@@ -1,9 +1,7 @@
 import React, { useRef } from 'react';
 import { useHistory } from 'react-router-dom';
 
-
 const Search = () => {
-
   const history = useHistory();
 
   const searchInputRef = useRef();
@@ -15,7 +13,7 @@ const Search = () => {
       name: searchInputRef.current.value
     }).toString();
 
-    history.push(`/search?${searchQuery}`)
+    history.push(`/search?${searchQuery}`);
   };
 
   return (
